@@ -1,3 +1,9 @@
+import Intro from "./(components)/intro.comp.tsx/intro.comp";
+
 export default function App() {
-  return <h1>Hello, Next.js!</h1>;
+  return (
+    <div>
+      <Intro />
+    </div>
+  );
 }

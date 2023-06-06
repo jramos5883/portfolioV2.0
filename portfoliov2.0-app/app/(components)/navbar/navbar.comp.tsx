@@ -1,11 +1,17 @@
 export default function Navbar() {
   return (
-    <div className="flex flex-row bg-green-300 justify-between h-16 items-center">
+    <div className="flex flex-row justify-between h-16 items-center">
       <h1 className="px-4 text-3xl">Navbar</h1>
       <div className="flex flex-row">
-        <p className="px-4">01. About Me</p>
-        <p className="px-4">02. Projects</p>
-        <p className="px-4">03. Message Me</p>
+        <p className="px-4 text-yellow">
+          01. <span className="text-white">About Me</span>
+        </p>
+        <p className="px-4 text-yellow">
+          02. <span className="text-white">Projects</span>
+        </p>
+        <p className="px-4 text-yellow">
+          03. <span className="text-white">Message Me</span>
+        </p>
       </div>
     </div>
   );
