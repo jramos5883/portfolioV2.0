@@ -11,11 +11,11 @@ export default function Intro() {
         the tech industry. Currently looking to take on new projects and
         challenges and continue to improve my coding skills and knowledge.
       </p>
-      <button className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg py-2">
-        Get In Touch
+      <button className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg">
+        Get In Touch <i className="fa-regular fa-envelope fa-2xl"></i>
       </button>
-      <button className="text-yellow border-yellow-400 p-2 border-4 rounded-lg py-2">
-        Resume
+      <button className="text-yellow border-yellow-400 p-2 border-4 rounded-lg">
+        Resume <i className="fa-regular fa-file fa-2xl"></i>
       </button>
     </div>
   );
