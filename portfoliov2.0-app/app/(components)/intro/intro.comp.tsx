@@ -1,12 +1,16 @@
+import { montFont } from "@/app/fonts";
+
 export default function Intro() {
   return (
     <div className="m-20">
       <p className="text-yellow text-3xl py-2">Hi, my name is</p>
-      <p className="text-white text-6xl font-bold py-2">John Ramos.</p>
-      <p className="text-grey text-6xl font-bold py-2">
+      <p className={`${montFont.className} text-white text-6xl font-bold py-2`}>
+        John Ramos.
+      </p>
+      <p className={`${montFont.className} text-grey text-6xl font-bold py-2`}>
         I build things for the web.
       </p>
-      <p className="text-grey max-w-lg text-2xl py-2">
+      <p className="text-grey max-w-lg text-2xl indent pb-8">
         I am a Los Angeles based junior software engineer looking to break into
         the tech industry. Currently looking to take on new projects and
         challenges and continue to improve my coding skills and knowledge.

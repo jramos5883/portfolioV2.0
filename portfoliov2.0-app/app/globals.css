@@ -9,6 +9,10 @@ body {
   background-color: rgb(17 24 39);
 }
 
+.indent {
+  text-indent: 40px;
+}
+
 .text-yellow {
   color: #ffeb3b;
 }
@@ -19,4 +23,12 @@ body {
 
 .text-grey {
   color: grey;
+}
+
+.profile-pic {
+  border-radius: 10%;
+}
+
+.icon {
+  color: white;
 }
