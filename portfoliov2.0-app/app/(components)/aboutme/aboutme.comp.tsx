@@ -51,6 +51,9 @@ export default function AboutMe() {
             GitHub <i className="fa-brands fa-github fa-2xl"></i>
           </a>
         </div>
+
+        {/* Need to switch from font awesome to react icons */}
+
         <div className="text-center">
           <p className="text-yellow text-3xl text-center">Skills</p>
           <div className="grid grid-cols-5 gap-x-36 gap-y-4">
