@@ -1,5 +1,21 @@
 import Image from "next/image";
-import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNode,
+  FaBootstrap,
+  FaPython,
+  FaLinux,
+  FaGithub,
+} from "react-icons/fa";
+import {
+  BiLogoTypescript,
+  BiLogoTailwindCss,
+  BiLogoFirebase,
+} from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 
 export default function AboutMe() {
   return (
@@ -65,48 +81,48 @@ export default function AboutMe() {
               <p className="text-yellow text-2xl">CSS</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-square-js"></i>
+              <FaJsSquare className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Javascript</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-react"></i>
+              <FaReact className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">React</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-square-js"></i>
+              <BiLogoTypescript className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">TypeScript</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-neos"></i>
+              <SiNextdotjs className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Next 13.4</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-node"></i>
+              <BiLogoFirebase className="icon fa-8x fa-brands" />
+              <p className="text-yellow text-2xl">Firebase</p>
+            </div>
+            <div className="text-center">
+              <FaNode className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Node.js</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-bootstrap"></i>
+              <FaBootstrap className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Bootstrap</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-solid fa-8x fa-wind"></i>
+              <BiLogoTailwindCss className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Tailwind</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-python"></i>
+              <FaPython className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Python</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-linux"></i>
+              <FaLinux className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Linux</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-github"></i>
+              <FaGithub className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">GitHub</p>
-            </div>
-            <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-gripfire"></i>
-              <p className="text-yellow text-2xl">Firebase</p>
             </div>
           </div>
         </div>
