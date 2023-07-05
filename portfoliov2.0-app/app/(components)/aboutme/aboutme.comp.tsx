@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 export default function AboutMe() {
   return (
@@ -52,17 +53,15 @@ export default function AboutMe() {
           </a>
         </div>
 
-        {/* Need to switch from font awesome to react icons */}
-
         <div className="text-center">
           <p className="text-yellow text-3xl text-center">Skills</p>
           <div className="grid grid-cols-5 gap-x-36 gap-y-4">
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-html5"></i>
-              <p className="text-yellow text-2xl">HTML</p>
+              <FaHtml5 className="icon fa-8x fa-brands" />
+              <p className="text-yellow text-2xl text-center">HTML</p>
             </div>
             <div className="text-center">
-              <i className="icon fa-brands fa-8x fa-css3-alt"></i>
+              <FaCss3Alt className="icon fa-8x fa-brands" />
               <p className="text-yellow text-2xl">CSS</p>
             </div>
             <div className="text-center">
