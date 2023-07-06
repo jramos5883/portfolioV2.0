@@ -1,6 +1,11 @@
+import { GiFlamingTrident } from "react-icons/gi";
+
 export default function Navbar() {
   return (
     <div className="flex flex-row justify-between h-16 items-center">
+      <span className="text-yellow px-4 text-5xl">
+        <GiFlamingTrident />
+      </span>
       <h1 className="text-yellow px-4 text-3xl">Navbar</h1>
       <div className="flex flex-row">
         <p className="px-4 text-yellow text-3xl">
@@ -16,4 +21,3 @@ export default function Navbar() {
     </div>
   );
 }
- 
