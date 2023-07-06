@@ -130,6 +130,7 @@ export default function AboutMe() {
       <div className="w-1/3 pt-12">
         <Image
           className="profile-pic"
+          layout="responsive"
           height={500}
           width={500}
           src="/images/headshot.jpg"
