@@ -6,7 +6,6 @@ export default function Navbar() {
       <span className="text-yellow px-4 text-5xl">
         <GiFlamingTrident />
       </span>
-      <h1 className="text-yellow px-4 text-3xl">Navbar</h1>
       <div className="flex flex-row">
         <p className="px-4 text-yellow text-3xl">
           01. <span className="text-white text-3xl">About Me</span>
@@ -15,7 +14,7 @@ export default function Navbar() {
           02. <span className="text-white text-3xl">Projects</span>
         </p>
         <p className="px-4 text-yellow text-3xl">
-          03. <span className="text-white text-3xl">Message Me</span>
+          03. <span className="text-white text-3xl">Contact Form</span>
         </p>
       </div>
     </div>
