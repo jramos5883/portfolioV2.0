@@ -7,7 +7,7 @@ export default function ContactForm() {
       <div className="flex justify-center items-center">
         <form
           target="_blank"
-          action="https://formsubmit.co/jrprodev@gmail.com"
+          action="https://formsubmit.co/45e1dbe943177426372966c2f8438520"
           method="POST"
         >
           {/* Honeypot */}
