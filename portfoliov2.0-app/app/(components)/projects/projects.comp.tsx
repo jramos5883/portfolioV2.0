@@ -9,10 +9,12 @@ export default function Projects() {
       <p className="text-yellow text-3xl">
         02. <span className="text-white text-3xl">Projects</span>
       </p>
-      <Dashboard />
-      <Portfolio />
-      <PttM />
-      <Blog />
+      <div className="flex flex-col items-center">
+        <Dashboard />
+        <PttM />
+        <Blog />
+        <Portfolio />
+      </div>
     </div>
   );
 }

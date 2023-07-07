@@ -56,13 +56,13 @@ export default function AboutMe() {
         </p>
         <div className="py-8">
           <a
-            className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg"
+            className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg hover:bg-yellow-700"
             href="https://www.linkedin.com/in/jrprodev/"
           >
             Linked&apos;in <i className="fa-brands fa-linkedin fa-2xl"></i>
           </a>
           <a
-            className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg"
+            className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg hover:bg-yellow-700"
             href="https://github.com/jramos5883"
           >
             GitHub <i className="fa-brands fa-github fa-2xl"></i>
@@ -129,7 +129,7 @@ export default function AboutMe() {
       </div>
       <div className="w-1/3 pt-12">
         <Image
-          className="profile-pic"
+          className="profile-pic border-yellow-400 border-4 rounded-lg"
           layout="responsive"
           height={500}
           width={500}

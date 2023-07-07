@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Portfolio() {
+export default function Dashboard() {
   return (
     <div className="">
-      <p className="text-center text-3xl text-yellow py-4">Portfolio Website</p>
+      <p className="text-center text-3xl text-yellow py-4">
+        Poseidon&apos;s Dashboard
+      </p>
       <div className="flex flex-row">
         <div className=" flex flex-col w-1/2">
           <Image
@@ -12,16 +14,17 @@ export default function Portfolio() {
             layout="responsive"
             height={500}
             width={500}
-            src="/images/portfolioPortfolio.png"
+            src="/images/portfolioDashboard.png"
             alt="Dashboard Calendar"
           />
           <div className="flex flex-row justify-evenly">
             <div className="2xl:hidden mt-8">
               <p className="text-white text-2xl">Technologies Used:</p>
               <ul>
-                <li className="text-grey text-2xl">- TypeScript</li>
+                <li className="text-grey text-2xl">- React</li>
                 <li className="text-grey text-2xl">- Next.js 13</li>
-                <li className="text-grey text-2xl">- FormSubmit</li>
+                <li className="text-grey text-2xl">- Firebase Firestore</li>
+                <li className="text-grey text-2xl">- NextAuth.js</li>
                 <li className="text-grey text-2xl">- Tailwind CSS</li>
               </ul>
             </div>
@@ -64,9 +67,10 @@ export default function Portfolio() {
               <div className="">
                 <p className="text-white text-2xl">Technologies Used:</p>
                 <ul>
-                  <li className="text-grey text-2xl">- TypeScript</li>
+                  <li className="text-grey text-2xl">- React</li>
                   <li className="text-grey text-2xl">- Next.js 13</li>
-                  <li className="text-grey text-2xl">- FormSubmit</li>
+                  <li className="text-grey text-2xl">- Firebase Firestore</li>
+                  <li className="text-grey text-2xl">- NextAuth.js</li>
                   <li className="text-grey text-2xl">- Tailwind CSS</li>
                 </ul>
               </div>
