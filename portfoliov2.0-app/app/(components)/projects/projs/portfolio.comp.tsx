@@ -41,21 +41,20 @@ export default function Portfolio() {
           <p className="text-white text-2xl">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
-              - Brainstormed, designed, built, and deployed a fully functioning
-              personal dashboard app created with orginization, productivity,
-              and efficency in mind.
+              - Created and launched a comprehensive personal portfolio website,
+              showcasing proficiency in coding, design sensibilities, and a wide
+              variety of technical projects.
             </li>
             <li className="text-grey text-2xl">
-              - Used NextAuth.js and Google OAuth to handle user sign in, manage
-              authentication, and establish protected routes.
+              - Incorporated a responsive design to ensure an optimal viewing
+              and navigation experience across multiple devices.
             </li>
             <li className="text-grey text-2xl">
-              - Deploy Firebase&apos;s serverless backend to allow for data,
-              file, and image storage for the dashboard.
+              - Utilized FormSubmit to allow contact form on website to send
+              direct emails to a professional invoice.
             </li>
             <li className="text-grey text-2xl">
-              - Created a Dota 2 Pro Match Tracker that displays recent pro Dota
-              2 matches and is able to search for specefic pro teams.
+              - Uploaded and deployed portfolio website with a personal URL.
             </li>
           </ul>
           <div className="sm:hidden 2xl:block">

@@ -127,7 +127,7 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="w-1/3 pt-12">
+      <div className="w-1/3 pt-12 ml-20">
         <Image
           className="profile-pic border-yellow-400 border-4 rounded-lg"
           layout="responsive"
