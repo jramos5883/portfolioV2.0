@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Blog() {
   return (
-    <div className="">
+    <div className="mb-20">
       <p className="text-center text-3xl text-yellow py-4">Blog Website</p>
       <div className="flex flex-row">
         <div className=" flex flex-col w-1/2">
@@ -17,13 +17,12 @@ export default function Blog() {
           />
           <div className="flex flex-row justify-evenly">
             <div className="2xl:hidden mt-8">
-              <p className="text-white text-2xl">Technologies Used:</p>
+              <p className="text-white text-2xl pb-4">Technologies Used:</p>
               <ul>
                 <li className="text-grey text-2xl">- React</li>
-                <li className="text-grey text-2xl">- Next.js 13</li>
+                <li className="text-grey text-2xl">- TypeScript</li>
                 <li className="text-grey text-2xl">- Firebase Firestore</li>
-                <li className="text-grey text-2xl">- NextAuth.js</li>
-                <li className="text-grey text-2xl">- Tailwind CSS</li>
+                <li className="text-grey text-2xl">- Firebase Storage</li>
               </ul>
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
@@ -39,7 +38,7 @@ export default function Blog() {
           </div>
         </div>
         <div className="w-1/2 ml-16">
-          <p className="text-white text-2xl">Project Summary:</p>
+          <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
               - Brainstormed, designed, built, and deployed a fully functioning
@@ -63,13 +62,12 @@ export default function Blog() {
             <div className="flex flex-row">
               {" "}
               <div className="">
-                <p className="text-white text-2xl">Technologies Used:</p>
+                <p className="text-white text-2xl py-4">Technologies Used:</p>
                 <ul>
                   <li className="text-grey text-2xl">- React</li>
-                  <li className="text-grey text-2xl">- Next.js 13</li>
+                  <li className="text-grey text-2xl">- TypeScript</li>
                   <li className="text-grey text-2xl">- Firebase Firestore</li>
-                  <li className="text-grey text-2xl">- NextAuth.js</li>
-                  <li className="text-grey text-2xl">- Tailwind CSS</li>
+                  <li className="text-grey text-2xl">- Firebase Storage</li>
                 </ul>
               </div>
               <div className="m-20">

@@ -17,8 +17,9 @@ export default function Portfolio() {
           />
           <div className="flex flex-row justify-evenly">
             <div className="2xl:hidden mt-8">
-              <p className="text-white text-2xl">Technologies Used:</p>
+              <p className="text-white text-2xl pb-4">Technologies Used:</p>
               <ul>
+                <li className="text-grey text-2xl">- React</li>
                 <li className="text-grey text-2xl">- TypeScript</li>
                 <li className="text-grey text-2xl">- Next.js 13</li>
                 <li className="text-grey text-2xl">- FormSubmit</li>
@@ -38,7 +39,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="w-1/2 ml-16">
-          <p className="text-white text-2xl">Project Summary:</p>
+          <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
               - Created and launched a comprehensive personal portfolio website,
@@ -61,8 +62,9 @@ export default function Portfolio() {
             <div className="flex flex-row">
               {" "}
               <div className="">
-                <p className="text-white text-2xl">Technologies Used:</p>
+                <p className="text-white text-2xl py-4">Technologies Used:</p>
                 <ul>
+                  <li className="text-grey text-2xl">- React</li>
                   <li className="text-grey text-2xl">- TypeScript</li>
                   <li className="text-grey text-2xl">- Next.js 13</li>
                   <li className="text-grey text-2xl">- FormSubmit</li>
