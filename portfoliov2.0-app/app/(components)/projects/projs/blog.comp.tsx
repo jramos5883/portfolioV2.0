@@ -41,21 +41,16 @@ export default function Blog() {
           <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
-              - Brainstormed, designed, built, and deployed a fully functioning
-              personal dashboard app created with orginization, productivity,
-              and efficency in mind.
+              - Used Firebase Auth to handle personal admin sign in to post
+              blogs.
             </li>
             <li className="text-grey text-2xl">
-              - Used NextAuth.js and Google OAuth to handle user sign in, manage
-              authentication, and establish protected routes.
+              - Utilized React and Typescript to design and build the layout and
+              funcitonality of the blog website.
             </li>
             <li className="text-grey text-2xl">
-              - Deploy Firebase&apos;s serverless backend to allow for data,
-              file, and image storage for the dashboard.
-            </li>
-            <li className="text-grey text-2xl">
-              - Created a Dota 2 Pro Match Tracker that displays recent pro Dota
-              2 matches and is able to search for specefic pro teams.
+              - Deployed Firebase&apos;s serverless backend to allow for data,
+              file, and image storage for the blog website.
             </li>
           </ul>
           <div className="sm:hidden 2xl:block">

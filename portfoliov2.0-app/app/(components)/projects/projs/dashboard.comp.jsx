@@ -53,7 +53,7 @@ export default function Dashboard() {
               authentication, and establish protected routes.
             </li>
             <li className="text-grey text-2xl">
-              - Deploy Firebase&apos;s serverless backend to allow for data,
+              - Deployed Firebase&apos;s serverless backend to allow for data,
               file, and image storage for the dashboard.
             </li>
             <li className="text-grey text-2xl">
