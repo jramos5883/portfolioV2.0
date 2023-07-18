@@ -41,7 +41,7 @@ export default function Blog() {
           <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
-              - Used Firebase Auth to handle personal admin sign in to post
+              - Used Firebase Auth to handle personal sign in to post
               blogs.
             </li>
             <li className="text-grey text-2xl">
