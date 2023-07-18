@@ -41,8 +41,7 @@ export default function Blog() {
           <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
-              - Used Firebase Auth to handle personal sign in to post
-              blogs.
+              - Used Firebase Auth to handle personal sign in to post blogs.
             </li>
             <li className="text-grey text-2xl">
               - Utilized React and Typescript to design and build the layout and
@@ -67,7 +66,7 @@ export default function Blog() {
               </div>
               <div className="m-20">
                 <Link
-                  href="https://blog.johnramos.tech"
+                  href="https://react-typescript-blog-peach.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yellow border-yellow-400 p-2 border-4 my-12 rounded-lg hover:bg-yellow-700"
