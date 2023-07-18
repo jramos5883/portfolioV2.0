@@ -7,15 +7,21 @@ export default function Navbar() {
         <GiFlamingTrident />
       </span>
       <div className="flex flex-row">
-        <p className="px-4 text-yellow text-3xl">
-          01. <span className="text-white text-3xl">About Me</span>
-        </p>
-        <p className="px-4 text-yellow text-3xl">
-          02. <span className="text-white text-3xl">Projects</span>
-        </p>
-        <p className="px-4 text-yellow text-3xl">
-          03. <span className="text-white text-3xl">Contact Form</span>
-        </p>
+        <a href="#id_aboutMe">
+          <p className="px-4 text-yellow text-3xl">
+            01. <span className="text-white text-3xl">About Me</span>
+          </p>
+        </a>
+        <a href="#id_projects">
+          <p className="px-4 text-yellow text-3xl">
+            02. <span className="text-white text-3xl">Projects</span>
+          </p>
+        </a>
+        <a href="#id_contact">
+          <p className="px-4 text-yellow text-3xl">
+            03. <span className="text-white text-3xl">Contact Form</span>
+          </p>
+        </a>
       </div>
     </div>
   );

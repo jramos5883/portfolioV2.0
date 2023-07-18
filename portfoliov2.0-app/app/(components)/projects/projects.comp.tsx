@@ -6,6 +6,7 @@ import Blog from "./projs/blog.comp";
 export default function Projects() {
   return (
     <div className="m-20">
+      <div id="id_projects" />
       <p className="text-yellow text-3xl">
         02. <span className="text-white text-3xl">Projects</span>
       </p>

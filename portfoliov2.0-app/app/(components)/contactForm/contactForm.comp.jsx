@@ -3,6 +3,7 @@ import { montFont } from "@/app/fonts";
 export default function ContactForm() {
   return (
     <div className="m-20">
+      <div id="id_contact" />
       <p className="text-yellow text-3xl">
         03. <span className="text-white text-3xl">Contact Form</span>
       </p>

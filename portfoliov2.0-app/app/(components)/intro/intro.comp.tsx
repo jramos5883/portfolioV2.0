@@ -16,7 +16,9 @@ export default function Intro() {
         challenges and continue to improve my coding skills and knowledge.
       </p>
       <button className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg hover:bg-yellow-700">
-        Get In Touch <i className="fa-regular fa-envelope fa-2xl"></i>
+        <a href="#id_contact">
+          Get In Touch <i className="fa-regular fa-envelope fa-2xl"></i>
+        </a>
       </button>
       <button className="text-yellow border-yellow-400 p-2 border-4 rounded-lg hover:bg-yellow-700">
         Resume <i className="fa-regular fa-file fa-2xl"></i>

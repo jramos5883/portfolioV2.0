@@ -21,6 +21,7 @@ export default function AboutMe() {
   return (
     <div className="m-20 flex justify-between">
       <div className="w-2/3">
+        <div id="id_aboutMe" />
         <p className="text-yellow text-3xl">
           01. <span className="text-white text-3xl">About Me</span>
         </p>
