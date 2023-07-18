@@ -73,7 +73,7 @@ export default function Portfolio() {
               </div>
               <div className="m-20">
                 <Link
-                  href="https://dashboard-kappa-blue.vercel.app/"
+                  href="https://johnramos.tech"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yellow border-yellow-400 p-2 border-4 my-12 rounded-lg hover:bg-yellow-700"

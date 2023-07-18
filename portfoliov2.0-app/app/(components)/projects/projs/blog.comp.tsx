@@ -27,7 +27,7 @@ export default function Blog() {
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
               <Link
-                href="https://blog.johnramos.tech"
+                href="https://react-typescript-blog-peach.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-yellow border-yellow-400 p-2 border-4 my-8 rounded-lg hover:bg-yellow-700"
