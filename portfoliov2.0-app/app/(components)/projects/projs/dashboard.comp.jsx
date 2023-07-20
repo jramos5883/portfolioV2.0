@@ -26,6 +26,7 @@ export default function Dashboard() {
                 <li className="text-grey text-2xl">- Firebase Firestore</li>
                 <li className="text-grey text-2xl">- NextAuth.js</li>
                 <li className="text-grey text-2xl">- Tailwind CSS</li>
+                <li className="text-grey text-2xl">- Vercel</li>
               </ul>
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
@@ -72,6 +73,7 @@ export default function Dashboard() {
                   <li className="text-grey text-2xl">- Firebase Firestore</li>
                   <li className="text-grey text-2xl">- NextAuth.js</li>
                   <li className="text-grey text-2xl">- Tailwind CSS</li>
+                  <li className="text-grey text-2xl">- Vercel</li>
                 </ul>
               </div>
               <div className="m-20">

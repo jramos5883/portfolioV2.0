@@ -24,11 +24,12 @@ export default function Portfolio() {
                 <li className="text-grey text-2xl">- Next.js 13</li>
                 <li className="text-grey text-2xl">- FormSubmit</li>
                 <li className="text-grey text-2xl">- Tailwind CSS</li>
+                <li className="text-grey text-2xl">- Vercel</li>
               </ul>
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
               <Link
-                href="https://johnramos.tech"
+                href="https://portfolio-v2-0-sigma.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-yellow border-yellow-400 p-2 border-4 my-8 rounded-lg hover:bg-yellow-700"
@@ -69,11 +70,12 @@ export default function Portfolio() {
                   <li className="text-grey text-2xl">- Next.js 13</li>
                   <li className="text-grey text-2xl">- FormSubmit</li>
                   <li className="text-grey text-2xl">- Tailwind CSS</li>
+                  <li className="text-grey text-2xl">- Vercel</li>
                 </ul>
               </div>
               <div className="m-20">
                 <Link
-                  href="https://johnramos.tech"
+                  href="https://portfolio-v2-0-sigma.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yellow border-yellow-400 p-2 border-4 my-12 rounded-lg hover:bg-yellow-700"

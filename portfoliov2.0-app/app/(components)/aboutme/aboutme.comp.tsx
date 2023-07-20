@@ -59,12 +59,16 @@ export default function AboutMe() {
           <a
             className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg hover:bg-yellow-700"
             href="https://www.linkedin.com/in/jrprodev/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Linked&apos;in <i className="fa-brands fa-linkedin fa-2xl"></i>
           </a>
           <a
             className="text-yellow border-yellow-400 p-2 mr-4 border-4 rounded-lg hover:bg-yellow-700"
             href="https://github.com/jramos5883"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub <i className="fa-brands fa-github fa-2xl"></i>
           </a>

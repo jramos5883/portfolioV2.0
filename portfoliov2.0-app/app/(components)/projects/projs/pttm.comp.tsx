@@ -14,7 +14,7 @@ export default function PttM() {
             layout="responsive"
             height={500}
             width={500}
-            src="/images/portfolioDashboard.png"
+            src="/images/portfolioPttM.png"
             alt="Dashboard Calendar"
           />
           <div className="flex flex-row justify-evenly">
@@ -23,14 +23,14 @@ export default function PttM() {
               <ul>
                 <li className="text-grey text-2xl">- React</li>
                 <li className="text-grey text-2xl">- Next.js 13</li>
-                <li className="text-grey text-2xl">- Firebase Firestore</li>
-                <li className="text-grey text-2xl">- NextAuth.js</li>
+                <li className="text-grey text-2xl">- Google Embeded Map API</li>
                 <li className="text-grey text-2xl">- Tailwind CSS</li>
+                <li className="text-grey text-2xl">- Vercel</li>
               </ul>
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
               <Link
-                href="https://dashboard-kappa-blue.vercel.app/"
+                href="https://pttmv4.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-yellow border-yellow-400 p-2 border-4 my-8 rounded-lg hover:bg-yellow-700"
@@ -44,21 +44,24 @@ export default function PttM() {
           <p className="text-white text-2xl pb-4">Project Summary:</p>
           <ul>
             <li className="text-grey text-2xl">
-              - Brainstormed, designed, built, and deployed a fully functioning
-              personal dashboard app created with orginization, productivity,
-              and efficency in mind.
+              - Spearheaded collaboration with restaurant owners, meticulously
+              shaping the digital representation of their business to perfectly
+              align with their vision and goals.
             </li>
             <li className="text-grey text-2xl">
-              - Used NextAuth.js and Google OAuth to handle user sign in, manage
-              authentication, and establish protected routes.
+              - Employed responsive design principles using Tailwind CSS,
+              ensuring optimal webpage presentation across various devices for a
+              seamless user experience.
             </li>
             <li className="text-grey text-2xl">
-              - Deploy Firebase&apos;s serverless backend to allow for data,
-              file, and image storage for the dashboard.
+              - Utilized the Google Maps Embedded API, offering an intuitive,
+              user-friendly tool for customers to effortlessly locate the
+              restaurant.
             </li>
             <li className="text-grey text-2xl">
-              - Created a Dota 2 Pro Match Tracker that displays recent pro Dota
-              2 matches and is able to search for specefic pro teams.
+              - Integrated social media platforms with custom interactive icons,
+              increasing customer engagement and strengthening the
+              restaurant&apos;s online presence.
             </li>
           </ul>
           <div className="sm:hidden 2xl:block">
@@ -69,14 +72,16 @@ export default function PttM() {
                 <ul>
                   <li className="text-grey text-2xl">- React</li>
                   <li className="text-grey text-2xl">- Next.js 13</li>
-                  <li className="text-grey text-2xl">- Firebase Firestore</li>
-                  <li className="text-grey text-2xl">- NextAuth.js</li>
+                  <li className="text-grey text-2xl">
+                    - Google Embeded Map API
+                  </li>
                   <li className="text-grey text-2xl">- Tailwind CSS</li>
+                  <li className="text-grey text-2xl">- Vercel</li>
                 </ul>
               </div>
               <div className="m-20">
                 <Link
-                  href="https://dashboard-kappa-blue.vercel.app/"
+                  href="https://pttmv4.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yellow border-yellow-400 p-2 border-4 my-12 rounded-lg hover:bg-yellow-700"

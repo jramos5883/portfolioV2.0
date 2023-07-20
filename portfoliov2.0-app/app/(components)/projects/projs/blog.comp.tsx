@@ -23,6 +23,7 @@ export default function Blog() {
                 <li className="text-grey text-2xl">- TypeScript</li>
                 <li className="text-grey text-2xl">- Firebase Firestore</li>
                 <li className="text-grey text-2xl">- Firebase Storage</li>
+                <li className="text-grey text-2xl">- Vercel</li>
               </ul>
             </div>
             <div className="flex items-center justify-center 2xl:hidden">
@@ -62,6 +63,7 @@ export default function Blog() {
                   <li className="text-grey text-2xl">- TypeScript</li>
                   <li className="text-grey text-2xl">- Firebase Firestore</li>
                   <li className="text-grey text-2xl">- Firebase Storage</li>
+                  <li className="text-grey text-2xl">- Vercel</li>
                 </ul>
               </div>
               <div className="m-20">
