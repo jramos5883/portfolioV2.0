@@ -20,9 +20,13 @@ export default function Intro() {
           Get In Touch <i className="fa-regular fa-envelope fa-2xl"></i>
         </a>
       </button>
-      <button className="text-yellow border-yellow-400 p-2 border-4 rounded-lg hover:bg-yellow-700">
+      <a
+        className="text-yellow border-yellow-400 p-2 border-4 rounded-lg hover:bg-yellow-700"
+        href="/pdf/j_ramos_tech_resume.pdf"
+        target="_blank"
+      >
         Resume <i className="fa-regular fa-file fa-2xl"></i>
-      </button>
+      </a>
     </div>
   );
 }
