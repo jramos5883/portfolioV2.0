@@ -1,7 +1,7 @@
 import Dashboard from "./projs/dashboard.comp";
-// import Portfolio from "./projs/portfolio.comp";
 import PttM from "./projs/pttm.comp";
 import Blog from "./projs/blog.comp";
+// import Portfolio from "./projs/portfolio.comp";
 
 export default function Projects() {
   return (
