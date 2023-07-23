@@ -78,55 +78,55 @@ export default function AboutMe() {
           <p className="text-yellow text-3xl text-center">Skills</p>
           <div className="grid grid-cols-5 gap-x-36 gap-y-4">
             <div className="text-center">
-              <FaHtml5 className="icon fa-8x fa-brands" />
+              <FaHtml5 className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl text-center">HTML</p>
             </div>
             <div className="text-center">
-              <FaCss3Alt className="icon fa-8x fa-brands" />
+              <FaCss3Alt className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">CSS</p>
             </div>
             <div className="text-center">
-              <FaJsSquare className="icon fa-8x fa-brands" />
+              <FaJsSquare className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Javascript</p>
             </div>
             <div className="text-center">
-              <FaReact className="icon fa-8x fa-brands" />
+              <FaReact className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">React</p>
             </div>
             <div className="text-center">
-              <BiLogoTypescript className="icon fa-8x fa-brands" />
+              <BiLogoTypescript className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">TypeScript</p>
             </div>
             <div className="text-center">
-              <SiNextdotjs className="icon fa-8x fa-brands" />
+              <SiNextdotjs className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Next 13.4</p>
             </div>
             <div className="text-center">
-              <BiLogoFirebase className="icon fa-8x fa-brands" />
+              <BiLogoFirebase className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Firebase</p>
             </div>
             <div className="text-center">
-              <FaNode className="icon fa-8x fa-brands" />
+              <FaNode className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Node.js</p>
             </div>
             <div className="text-center">
-              <FaBootstrap className="icon fa-8x fa-brands" />
+              <FaBootstrap className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Bootstrap</p>
             </div>
             <div className="text-center">
-              <BiLogoTailwindCss className="icon fa-8x fa-brands" />
+              <BiLogoTailwindCss className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Tailwind</p>
             </div>
             <div className="text-center">
-              <FaPython className="icon fa-8x fa-brands" />
+              <FaPython className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Python</p>
             </div>
             <div className="text-center">
-              <FaLinux className="icon fa-8x fa-brands" />
+              <FaLinux className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">Linux</p>
             </div>
             <div className="text-center">
-              <FaGithub className="icon fa-8x fa-brands" />
+              <FaGithub className="text-white fa-8x fa-brands" />
               <p className="text-yellow text-2xl">GitHub</p>
             </div>
           </div>
