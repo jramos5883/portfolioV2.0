@@ -4,9 +4,7 @@ import Link from "next/link";
 export default function PttM() {
   return (
     <div className="mb-20">
-      <p className="text-center text-3xl text-yellow py-4">
-        Poke to the Moon - Resturant Website
-      </p>
+      <p className="text-center text-3xl text-yellow py-4">Poke to the Moon</p>
       <div className="flex flex-row">
         <div className=" flex flex-col w-1/2">
           <Image
