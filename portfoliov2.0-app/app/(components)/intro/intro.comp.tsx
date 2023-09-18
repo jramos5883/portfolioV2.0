@@ -22,7 +22,7 @@ export default function Intro() {
       </button>
       <a
         className="text-yellow border-yellow-400 p-2 border-4 rounded-lg hover:bg-yellow-700"
-        href="/pdf/j_ramos_tech_resume.pdf"
+        href="/pdf/JohnRamosTechResume.pdf"
         target="_blank"
       >
         Resume <i className="fa-regular fa-file fa-2xl"></i>
