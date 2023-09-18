@@ -43,7 +43,7 @@ export default function CozyCupid() {
           <ul>
             <li className="text-grey text-2xl">
               - Lead meetings with clients and contributed to creating the brand
-              of the company's product.
+              of the company&apos;s product.
             </li>
             <li className="text-grey text-2xl">
               - Utilized FormSubmit to create a contact form that sends emails
